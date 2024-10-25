@@ -12,6 +12,11 @@ public class Student
         this.cnp = cnp;
     }
 
+    public Student(String cnp, List<String> hobbies) {
+        this.cnp = cnp;
+        this.hobbies = hobbies;
+    }
+
     public String getCnp() {
         return cnp;
     }
