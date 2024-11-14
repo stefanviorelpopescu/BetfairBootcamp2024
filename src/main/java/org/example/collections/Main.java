@@ -19,6 +19,8 @@ public class Main {
 //            strings.remove(string);
 //        }
 
+        System.out.println(strings.size());
+
         Iterator<String> iterator = strings.iterator();
         while(iterator.hasNext()) {
             String next = iterator.next();
